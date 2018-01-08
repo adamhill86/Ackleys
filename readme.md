@@ -15,8 +15,8 @@ This function works as follows:
 * Randomly generates an initial position *(x, y)* in the range *(-5, 5)*
 * Check the value of the Ackley's function *f(x, y)* 
 * Generate a new position *(x', y')*:
-..* *x' = ((rand()) - 0.5) * 0.1 + x*
-..* *y' = ((rand()) - 0.5) * 0.1 + y*
+⋅⋅* *x' = ((rand()) - 0.5) * 0.1 + x*
+⋅⋅* *y' = ((rand()) - 0.5) * 0.1 + y*
 * Compute *f(x', y')*
 * Continue this process until a better position is not found in the last 100 steps
 * Run this whole process 100 times
@@ -24,10 +24,10 @@ This function works as follows:
 ## Differential Evolution
 This function works as follows:
  * Initializes its parameters.
-..* Np = 20
-..* Nc = 100
-..* Cr = 0.1
-..* F = 0.8
+⋅⋅* Np = 20
+⋅⋅* Nc = 100
+⋅⋅* Cr = 0.1
+⋅⋅* F = 0.8
  * Initializes its population of agents
  * Selects a candidate agent, *currentAgent*, from the list.
  * Also randomly selects 3 other agents *a, b, c*, none of which can be the same or equal to *currentAgent*
